@@ -47,5 +47,5 @@ public class KvetinyTableModel extends AbstractTableModel {
             default -> throw new RuntimeException("Špaté číslo sloupce:" + column);
         };
     }
-
+// dve moznosti jak udelat ten switch
 }
